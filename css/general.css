@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    background-image:url(../images/wood-background.jpg);
+    background-size: 14rem; 
+    
+    /* Background Position 
+    
+    height: 100%;
+    background-image:url(../images/pattern.jpg);
+    background-size: 10rem;
+    background-repeat:no-repeat;	
+    background-position: center center; */
+	
+    /* Background Image 
+    
+    height: 100%;
+    background-image:url(../images/pattern.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat; */
+}
+
+header {
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+img {
+	width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+body {
+	margin: 0;
+    padding: 0; 
+}
+
+.logo {
+    height: 6rem;
+    width: auto;
+    margin: 2rem auto;
+    opacity: .8;
+}
+
+.enterprise {
+    margin: 0 5% 3rem;
+    overflow: hidden;	
+	
+    background-color: white; 	
+    background-image:url(../images/reciepes.jpg); 
+	background-repeat:no-repeat;
+    background-position:center center;
+    
+
+    box-shadow: .2rem .4rem .4rem .2rem white; /* x, y, blur, spread */
+    
+    border: solid .35rem white;
+    border-radius: 1.25rem; 
+}
+
+h1 {
+    margin: 6rem 0;
+    font-family: Georgia, Times, serif;
+    font-weight: normal;
+	font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+	background-color: lightblue;
+    padding: .25rem 0;
+    opacity: .8;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+}
+
+figcaption {
+    font-size: .75rem;
+    padding: .5rem 5%; 
+    background-color: white;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+article {
+    background-color: lightblue;
+    opacity: .8rem;
+    padding; .5rem 5%;
+    margin: 0 auto 1.5rem;
+}
+    
