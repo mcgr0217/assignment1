@@ -19,8 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
+    font-family: Garamond, Baskerville,  "baskerville old face", "hoefler text", Times New Roman, serif;
     background-image:url(../images/wood-background.jpg);
     background-size: 14rem; 
     
@@ -63,7 +62,7 @@ body {
     opacity: .8;
 }
 
-.enterprise {
+.pilsbury {
     margin: 1.5rem 5% 3rem;
     overflow: hidden;	
 	background-color: lightblue; 	
@@ -123,5 +122,13 @@ ol {
     background-color: lightblue;
     opacity: 20rem;
 }
+
+.logo {
+    height: 6rem;
+    width: auto;
+    background-color: white;
+    overflow: hidden;
+}
+    
     
     
