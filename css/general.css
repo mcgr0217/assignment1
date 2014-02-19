@@ -21,22 +21,8 @@ html {
     font-size: 100%;
     font-family: Garamond, Baskerville,  "baskerville old face", "hoefler text", Times New Roman, serif;
     background-image:url(../images/wood-background.jpg);
-    background-size: 14rem; 
-    
-    /* Background Position 
-    
-    height: 100%;
-    background-image:url(../images/pattern.jpg);
-    background-size: 10rem;
-    background-repeat:no-repeat;	
-    background-position: center center; */
-	
-    /* Background Image 
-    
-    height: 100%;
-    background-image:url(../images/pattern.jpg);
-    background-size: 100%;
-    background-repeat:no-repeat; */
+    background-size: 14rem;
+    background-repeat: repeat;
 }
 
 header {
@@ -101,7 +87,8 @@ figcaption {
 h2 {
     font-weight: normal;
     font-size: 1rem;
-    padding: .5rem 1rem 2rem;
+    padding: .5rem;
+    font-variant: small-caps;
 }
 
 article {
@@ -109,13 +96,13 @@ article {
     opacity: .8rem;
     padding; .5rem 5%;
     margin: .5rem auto .5rem;
-    padding: .5rem 1rem .5rem
 }
   
-h3 {
-    margin: 0 auto 1rem;
-    font-size: 1.5rem;
-    text-decoration:underline;
+p {
+    margin: 1rem 5% 1rem;
+    font-size: 1rem;
+    font-variant: small-caps;
+    
 }
 
 ol {
@@ -124,11 +111,19 @@ ol {
 }
 
 .logo {
-    height: 6rem;
-    width: auto;
-    background-color: white;
-    overflow: hidden;
+    margin: .5rem 
 }
-    
-    
-    
+
+q {
+    color: #171787;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.25rem;
+    margin: .5rem 5% 1rem;
+}
+
+footer {
+    overflow: hidden;
+    background-color: lightblue;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}    
