@@ -17,7 +17,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
     font-family: Garamond, Baskerville,  "baskerville old face", "hoefler text", Times New Roman, serif;
     background-image:url(../images/wood-background.jpg);
@@ -102,7 +101,6 @@ p {
     margin: 1rem 5% 1rem;
     font-size: 1rem;
     font-variant: small-caps;
-    
 }
 
 ol {
@@ -117,7 +115,6 @@ ol {
 q {
     color: #171787;
     font-weight: bold;
-    font-variant: small-caps;
     font-size: 1.25rem;
     margin: .5rem 5% 1rem;
 }
@@ -126,4 +123,12 @@ footer {
     overflow: hidden;
     background-color: lightblue;
     font-family: "Arial Narrow", Arial, sans-serif;
-}    
+} 
+
+summary {
+    font-size: 1.5rem;
+    color: #171787;
+    font-weight: bold;
+}
+    
+    
