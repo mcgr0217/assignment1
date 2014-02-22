@@ -18,8 +18,8 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     font-size: 100%;
-    font-family: Garamond, Baskerville,  "baskerville old face", "hoefler text", Times New Roman, serif;
-    background-image:url(../images/wood-background.jpg);
+    font-family: Garamond, Baskerville, "baskerville old face", "hoefler text", Times New Roman, serif;
+    background-image: url(../images/wood-background.jpg);
     background-size: 14rem;
     background-repeat: repeat;
 }
@@ -50,9 +50,9 @@ body {
     margin: 1.5rem 5% 3rem;
     overflow: hidden;	
 	background-color: lightblue; 	
-    background-image:url(../images/reciepes.jpg); 
-	background-repeat:no-repeat;
-    background-position:center center;
+    background-image: url(../images/reciepes.jpg); 
+	background-repeat: no-repeat;
+    background-position: center center;
     box-shadow: .2rem .4rem .4rem .2rem white;
     border: solid .35rem white;
     border-radius: 1.25rem; 
@@ -90,28 +90,38 @@ h2 {
     margin: 1rem 5% 1rem;
 }
 
+h2:first-letter {
+    font-size: 1.4rem;
+}
+
 article {
     overflow: hidden;
     background-color: white;
     opacity: .8rem;
     border-radius: 1.25rem;
-    margin: 1rem auto;
+    margin: 1rem auto 2rem;
 }
   
 p {
     margin: 1rem 5% 1rem;
-    font-size: 1rem;
+    font-size: 1rem; 
+    color: #124BB6;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+p:first-letter {
+    font-size: 1.5rem;
 }
 
 .logo {
-    margin: .5rem 
+    margin: .5rem auto .5rem; 
 }
 
 q {
     font-weight: bold;
-    font-size: 1.25rem;
-    margin: 1rem 5% 1rem;
+    font-size: 1rem;
     font-variant: small-caps;
+    padding: 1rem 5% auto;
 }
 
 footer {
@@ -124,4 +134,37 @@ summary {
     font-size: 1.5rem;
     color: #124BB6;
     font-weight: bold;
-}    
+} 
+
+blockquote {
+    margin: 0;
+    padding: 0 0 0 2%;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: .9rem;
+    color: black;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1rem 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 4rem;
+    color: #124BB6;
+    float: left;
+    margin: .2rem 0 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 2rem;
+    position: absolute;
+    color: #124BB6; 
+    margin: .2rem 0 0;
+}
