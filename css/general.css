@@ -46,29 +46,27 @@ body {
     margin: 1.5rem 5% 3rem;
 }
 
-.pilsbury {
-    margin: 1.5rem 5% 3rem;
-    overflow: hidden;	
-	background-color: lightblue; 	
-    background-image: url(../images/reciepes.jpg); 
-	background-repeat: no-repeat;
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/reciepes.jpg);
+    background-color: #124BB6;
+    background-repeat: no-repeat;
     background-position: center center;
-    box-shadow: .2rem .4rem .4rem .2rem white;
-    border: solid .35rem white;
-    border-radius: 1.25rem; 
+    background-size: 40rem;
+    margin: 1rem 5% 1rem;
 }
 
 h1 {
     margin: 6rem 0;
     font-family: Georgia, Times, serif;
-    font-weight: normal;
+    font-weight: normal; 
 	font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
-	background-color: #f9f3d8;
+	background-color: white;
     padding: .25rem 0;
-    opacity: .8;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px #f9f3d8;
+    color: #124BB6;
 }
 
 figure {
@@ -90,15 +88,11 @@ h2 {
     margin: 1rem 5% 1rem;
 }
 
-h2:first-letter {
-    font-size: 1.4rem;
-}
-
 article {
     overflow: hidden;
     background-color: white;
     opacity: .8rem;
-    border-radius: 1.25rem;
+    border-radius: 1rem;
     margin: 1rem 5% 2rem;
 }
   
@@ -109,19 +103,8 @@ p {
     font-family: "Arial Narrow", Arial, sans-serif;
 }
 
-p:first-letter {
-    font-size: 1.5rem;
-}
-
 .logo {
     margin: .5rem auto .5rem; 
-}
-
-q {
-    font-weight: bold;
-    font-size: 1rem;
-    font-variant: small-caps;
-    padding: 1rem 5% auto;
 }
 
 footer {
@@ -134,37 +117,10 @@ summary {
     font-size: 1.5rem;
     color: #124BB6;
     font-weight: bold;
+    margin: 1rem 5% 1rem 0;
 } 
 
-blockquote {
-    margin: 0;
-    padding: 0 0 0 2%;
-    overflow: hidden;
-}
-
-blockquote p {
-    font-size: .9rem;
-    color: black;
-}
-
-blockquote span {
-    font-weight: bold;
-    float: right;
-    margin: 1rem 0;
-}
-
-blockquote p:before {
-    content: "“";
-    font-size: 4rem;
+ins {
+    text-decoration: none;
     color: #124BB6;
-    float: left;
-    margin: .2rem 0 0;
-}
-
-blockquote p:after {
-    content: "”";
-    font-size: 2rem;
-    position: absolute;
-    color: #124BB6; 
-    margin: .2rem 0 0;
 }
