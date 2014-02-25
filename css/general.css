@@ -78,6 +78,7 @@ figcaption {
     padding: .5rem 5%; 
     background-color: #f9f3d8;
     color: #124BB6;
+    text-shadow: 1px 1px white;
 }
 
 h2 {
