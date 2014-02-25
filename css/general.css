@@ -92,6 +92,8 @@ article {
     overflow: hidden;
     background-color: white;
     margin: 1rem 5% 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
   
 p {
@@ -121,7 +123,7 @@ ul {
 
 li:hover {
     background-color: #f9f3d8; 
-    color:#124BB6; 
+    color: #124BB6; 
 }
 
 hr {
